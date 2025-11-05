@@ -1,0 +1,15 @@
+name: wherobots-gdea-2025
+
+services:
+  harlequin:
+    image: hparker-wherobots-gdea-2025/harlequin
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.harlequin
+      target: wherobots-harlequin
+    tty: true
+    stdin_open: true
+    command: bash -c "API_KEY=$$(cat ./gdea-cert.api) && harlequin -a wherobots --api-key \"$$API_KEY\"  --runtime TINY --region AWS_US_EAST_1 --locale en_US.UTF-8"
+    environment:
+      - COLUMNS=${COLUMNS}
+      - LINES=${LINES}
