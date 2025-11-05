@@ -1,0 +1,57 @@
+[
+  {
+    "description": "conflation",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-conflation.py",
+    "compute": "small"
+  },
+  {
+    "description": "data-joins",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-data-joins.py",
+    "compute": "tiny"
+  },
+  {
+    "description": "nearest-road-point",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-nearest-road-point.py",
+    "compute": "tiny"
+  },
+  {
+    "description": "simple-join",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-simple-joins.py",
+    "compute": "tiny"
+  },
+  {
+    "description": "knn",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-KNN.py",
+    "compute": "small"
+  },
+  {
+    "description": "isochrones",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-isochrones.py",
+    "compute": "small"
+  },
+  {
+    "description": "nearest",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-nearest.py",
+    "compute": "tiny"
+  },
+  {
+    "description": "raster-ndvi",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-raster-ndvi.py",
+    "compute": "tiny"
+  },
+  {
+    "description": "raster-zonal-stats",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-raster-zonal-stats.py",
+    "compute": "tiny"
+  },
+  {
+    "description": "raster-conflation",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-raster-conflation.py",
+    "compute": "tiny"
+  },
+  {
+    "description": "area-weighted-interpolation",
+    "s3Path": "s3://wbts-wbc-bbshnf4fcv/0dj2uiorbw/data/customer-3yn6lxe0dom28o/week-3-area-weighted-interpolation.py",
+    "compute": "medium"
+  }
+]
